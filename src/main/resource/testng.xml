@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bromford Housing Test Automating suite ">
+  
+  <listeners>
+		<listener class-name="Bromford.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	 <test name="Bromford Test Cases">
+    <classes>
+      <!-- <class name="BromfordTestLayer.ITSMProblemTest"/> -->
+      <class name="BromfordTestLayer.ITSMProblems_87728PageTest"/>
+   <!--    <class name="BromfordTestLayer.ITSMChangeRequestPageTest"/>
+      <class name="BromfordTestLayer.ITSMIncidentsPageTest"/> -->
+      
+       
+     
+    </classes>
+  </test> 
+</suite>
